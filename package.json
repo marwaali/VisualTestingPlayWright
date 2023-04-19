@@ -1,0 +1,23 @@
+{
+  "name": "playwrightvisualtool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test --config=playwright.config.ts --project=chromium",
+    "console": "npx playwright test consoleErros.spec.ts --config=playwright.config.ts --project=chromium",
+    "hitAllLinks": "npx playwright test linkValidator.spec.ts --config=playwright.config.ts --project=chromium",
+    "screenShoterPage": "npx playwright test screenshoter.spec.ts -g ScreenshotValidationForPages --config=playwright.config.ts --project=chromium",
+    "screenShoterElement": "npx playwright test screenshoter.spec.ts -g ScreenshotValidationForElements --config=playwright.config.ts --project=chromium",
+    "getHTMLForPages": "npx playwright test ContentCheck.spec.ts -g GetPageContent --config=playwright.config.ts --project=chromium",
+    "htmlCompare": "npx playwright test ContentCheck.spec.ts  -g ComparePageContent --config=playwright.config.ts --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  },
+  "dependencies": {
+  }
+}

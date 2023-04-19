@@ -1,0 +1,29 @@
+{
+  "BaseURL": "",
+  "RunType": "all",
+  "ExcludedURLs": [
+  ],
+  "IncludedURLs": [
+  ],
+  "BaselineFolderPath": "D:\\AutomationFiles",
+  "FixedElements": [
+    {
+      
+    }
+  ],
+  "IgnoredElements": [
+    
+  ],
+  "ElementsToScreenshots":[
+    
+  ],
+  
+  "contentFiles":"D:\\AutomationFiles\\content",
+  "Cookie":"",
+  "elementsWithDynamicAttributes":[
+    
+  ],
+  "elementsWithDynamicLocators":[
+    
+  ]
+}	
